@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Peliculas]
+(
+	[Id] INT NOT NULL IDENTITY, 
+    [Titulo] VARBINARY(50) NULL, 
+    [Anyo] INT NULL, 
+    [Genero] VARCHAR(50) NULL, 
+    [Saga] VARCHAR(50) NULL, 
+    CONSTRAINT [PK_Peliculas] PRIMARY KEY ([Id]) 
+)
